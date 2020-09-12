@@ -3,6 +3,11 @@
 */
 
 // WRITE CODE HERE
+let kitten = {
+    name: "Gilbert",
+    clor: "Brown & White",
+    ageInMonths: 4
+}
 
 
 console.log(kitten.name);

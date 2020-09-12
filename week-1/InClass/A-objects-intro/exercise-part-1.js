@@ -17,3 +17,12 @@ var car = {
 
 */
 
+let mobile = {
+    brand: "Xiaomi",
+    model: "note 8 pro",
+    realisngYear: 2019,
+    color: "black",
+    cameraMegapixel : 64,
+    touchScreen : true
+}
+console.log(mobile);
