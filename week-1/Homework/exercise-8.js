@@ -101,3 +101,19 @@ var mentors = [
 
 //YOUR CODE HERE
 
+for (const mentor of mentors) {
+  const knowsReact = mentor.skills.includes('React')
+  const livesInBarcelona = mentor.job.city === 'Barcelona'
+  if (knowsReact && livesInBarcelona)
+    console.log(`Hi, my name is ${mentor.firstName} ${mentor.lastName}. I work in Barcelona and i know React.`)
+}
+
+
+for (const mentor of mentors) {
+  const livesInBarcelona = mentor.job.city === 'Barcelona'
+  if (livesInBarcelona) {
+    mentor.class = 'Jun1'
+    mentor.skills.push('SQL')
+  }
+}
+console.log(mentors);
